@@ -1,0 +1,94 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+font-family: "Happy Monkey", system-ui;
+font-weight: 400;
+font-style: normal;
+}
+
+
+
+.HERO {
+    background-image: url(./images/shutterstock-704213116.webp);
+    background-size: cover;
+    height: 400px;
+    padding: 50px;
+}
+
+.Greeting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+       
+}
+
+
+h1 {
+    color: white;
+    background-color: black;
+    margin-bottom: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+}
+
+h2{
+    color: white;
+    background-color: black;
+    margin-top: 15px;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+
+.Header{
+    padding: 10px;
+    background-color:  #ade8f4;
+    text-align: center;
+}
+
+
+.ACTIVITIES{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ade8f4;
+}
+
+.child-divs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.location-jpg {
+    border-radius: 50%; 
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+.GUIDE{
+  
+   width: 400px;
+   padding: 10px;
+   display: flex;
+   background-color: #000000;
+   color: whitesmoke;
+   margin: 50px auto;
+   border-radius: 5px;
+   border-bottom: 8px solid blue;
+}
+
+.avatar-img{
+    width: 150px;
+    height: 180px;
+    margin: 15px;
+    
+}
+
+.card-inside {
+    padding: 15px;
+}
